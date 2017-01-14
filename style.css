@@ -1,0 +1,44 @@
+#box {
+	position: absolute;
+	padding: 10px;
+	text-align: center;
+	border-width: 2px;
+	border-style: solid;
+	background: orange;
+	-webkit-transition: all .8s ease-in-out;
+	-moz-transition: all .8s ease-in-out;
+	-ms-transition: all .8s ease-in-out;
+	-o-transition: all .8s ease-in-out;
+	transition: all .8s ease-in-out;
+}
+
+#box:hover {
+	background: yellow;
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform:rotate(180deg);
+}
+
+.showme{
+	display: none;
+}
+.showFirst:hover .showme{
+	display : block;
+}
+.showFirst:hover .ok{
+	display : none;
+}
+
+.showFirst {
+	margin: 40px;
+	padding: 10px;
+	background: greenyellow;
+	border-width: thick;
+	border-radius: 5px 10px;
+	border-style: solid;
+	border-color: black;
+	font-family: "Brush Script MT", cursive;
+	font-size: 300%;
+}
