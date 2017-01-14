@@ -6,12 +6,12 @@
 		<link rel="stylesheet" href="style.css" type="text/css">
 	</head>
 	<body>
-		<header style="background-color: aquamarine"><h1>Header One for My Page</h1></header>
-			<h2>A Heading for This First Section</h2>
-		<div class="showFirst">
-			<span class="showme">I develop websites.</span>
-			<div class="ok">Hi! I'm Noel</div>
-		</div>
+		<header>
+			<div class="showFirst">
+				<span class="showme">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I develop websites.</span>
+				<div class="ok">Hi! I'm Noel</div>
+			</div>
+		</header>
 			<table id="box">
 			<tr>
 				<th>Cats</th>

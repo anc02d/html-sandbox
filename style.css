@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento');
+
 #box {
 	position: absolute;
 	padding: 10px;
@@ -32,13 +34,13 @@
 }
 
 .showFirst {
-	margin: 40px;
+	margin: 40px auto 100px;
 	padding: 10px;
-	background: greenyellow;
-	border-width: thick;
+	color: black;
+	border-width: 2px;
 	border-radius: 5px 10px;
 	border-style: solid;
-	border-color: black;
-	font-family: "Brush Script MT", cursive;
+	border-color: red;
+	font-family: 'Quattrocento', cursive;
 	font-size: 300%;
 }
